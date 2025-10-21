@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+echo "Running pre-commit checks..."
+
+# Run type-check
+yarn type-check || exit 1
+
+# Lint the project
+yarn lint || exit 1
+
+
+# show passed message with green check Icon
+echo "✅ Pre-commit checks passed. All checks passed successfully."

@@ -1,0 +1,442 @@
+{
+  "publicTopNav": {
+    "help": "Aide"
+  },
+  "LoginPage": {
+    "motto": "Plateforme de service de réparation fiable",
+    "welcome": "Bienvenue de nouveau",
+    "instruction": "Connectez-vous pour continuer à utiliser FixitFast",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "Entrez votre adresse e-mail",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "signIn": "Se connecter"
+  },
+  "HomePage": {
+    "title1": "Signalez les problèmes et reportez les incidentes de manière rapide et simple",
+    "title2": "utilisant notre",
+    "title3": "code QR",
+    "title4": "système",
+    "description": "Signalez les problèmes et reportez les incidentes de manière rapide et simple en utilisant notre code QR. Si vous n'avez pas de code QR, vous pouvez sélectionner votre salle manuellement à partir de la liste ci-dessous.",
+    "action": {
+      "scanQRCode": "Scanner le code QR",
+      "initiateHistory": "Initier l'historique",
+      "createTicket": "Créer un ticket"
+    },
+    "signIn": {
+      "title": "Voulez-vous obtenir des informations sur les incidents?",
+      "description": "Connectez-vous pour accéder à votre compte et commencer à utiliser notre système de gestion des incidents.",
+      "button": "Se connecter"
+    }
+  },
+  "howFifWork": {
+    "title1": "Comment ça marche?",
+    "title2": "Signaler des problèmes et des incidentes",
+    "title3": "Utiliser notre système de gestion des incidents",
+    "description": "Signalez les problèmes et reportez les incidentes de manière rapide et simple en utilisant notre système de gestion des incidents. Si vous n'avez pas de code QR, vous pouvez sélectionner votre salle manuellement à partir de la liste ci-dessous.",
+    "steps": {
+      "findQRCode": "1. Trouvez le Code QR",
+      "findQRCodeDescription": "Recherchez les codes QR affichés sur les murs, équipements ou signes de salle à travers l'installation.",
+      "positionCamera": "2. Positionnez votre Caméra",
+      "positionCameraDescription": "Maintenez votre appareil statique et pointez la caméra vers le code QR. Assurez-vous qu'il soit bien éclairé et clairement visible.",
+      "scanCode": "3. Scannez le Code",
+      "scanCodeDescription": "Appuyez sur le bouton de scan ou attendez la détection automatique. La caméra capturera les informations de localisation.",
+      "submitRequest": "4. Soumettez votre Demande",
+      "submitRequestDescription": "Une fois scanné, vous serez dirigé vers le formulaire de demande avec les détails de localisation déjà remplis. Remplissez les informations supplémentaires et soumettez la demande."
+    },
+    "scanningTipsData": {
+      "title": "Tips de Scan",
+      "description": "Suivez ces conseils pour assurer un scan fluide et réussi.",
+      "tips": [
+        "Assurez-vous que le code QR soit bien éclairé et clairement visible.",
+        "Maintenez votre appareil statique et pointez la caméra vers le code QR.",
+        "Appuyez sur le bouton de scan ou attendez la détection automatique.",
+        "Une fois scanné, vous serez dirigé vers le formulaire de demande avec les détails de localisation déjà remplis. Remplissez les informations supplémentaires et soumettez la demande."
+      ]
+    },
+    "troubleshootingData": {
+      "title": "Solución de Problemas",
+      "description": "Si vous rencontrez des problèmes lors de l'utilisation du système de scan de codes QR, consultez le guide de solution de problèmes ci-dessous pour obtenir des solutions.",
+      "tips": [
+        "Assurez-vous que votre appareil dispose d'une caméra fonctionnelle et n'est pas surchauffe.",
+        "Assurez-vous que le code QR est à l'intérieur de la zone de vue de la caméra et n'est pas obstrué.",
+        "Vérifiez que vous avez installé la dernière version de l'application FixitFast sur votre appareil.",
+        "Contactez notre équipe de support technique si le problème persiste."
+      ]
+    },
+    "alternativeOptionCard": {
+      "title": "Option Alternativa",
+      "description": "Si vous n'avez pas de code QR, vous pouvez également sélectionner votre salle manuellement à partir de la liste ci-dessous."
+    }
+  },
+  "IncidentForm": {
+    "incidentImage": {
+      "label": "Télécharger des images (Optionnel)",
+      "clickToSelect": "Cliquez pour sélectionner des fichiers",
+      "selectedImages": "Images sélectionnées",
+      "view": "Voir",
+      "remove": "Supprimer"
+    }
+  },
+  "Dashboard": {
+    "title": "Tableau de Bord",
+    "widgetTitles": {
+      "incidentStatusOverview": "Aperçu du Statut des Incidents",
+      "realTimeIncidentFeed": "Liste des Incidents en Temps Réel",
+      "locationHeatmap": "Carte de Chaleur des Lieux"
+    },
+    "actions": {
+      "seeMore": "Voir plus",
+      "createFollowup": "Créer un suivi",
+      "createAssignment": "Créer une tâche"
+    },
+    "filters": {
+      "monthly": "Mensuel",
+      "weekly": "Hebdomadaire",
+      "yearly": "Annuel",
+      "pickDatesLabel": "Choisir des dates",
+      "pickDatesPlaceholder": "Sélectionnez une plage de dates",
+      "periodPlaceholder": "Sélectionnez une période"
+    },
+    "status": {
+      "overdue": "En retard",
+      "closed": "Fermé",
+      "blocked": "Bloqué",
+      "open": "Ouvert",
+      "resolved": "Résolu"
+    },
+    "select": {
+      "assignmentPlaceholder": "Sélectionner une tâche"
+    },
+    "errors": {
+      "errorPrefix": "Erreur"
+    },
+    "messages": {
+      "noLocations": "Aucun emplacement disponible"
+    }
+  },
+  "IncidentManagement": {
+    "title": "Gestion des Incidents",
+    "labels": {
+      "total": "total",
+      "filterOptions": "Options de filtre",
+      "dateCreated": "Date de création",
+      "dueDate": "Date d'échéance",
+      "status": "Statut",
+      "operator": "Opérateur",
+      "operators": "Opérateurs",
+      "managers": "Managers",
+      "media": "Média",
+      "uploadImage": "Télécharger une image",
+      "time": "Heure",
+      "activity": "Activité"
+    },
+    "actions": {
+      "updateStatus": "Mettre à jour le statut",
+      "filter": "Filtrer",
+      "clearFilters": "Effacer les filtres",
+      "clear": "Effacer",
+      "applyFilters": "Appliquer les filtres",
+      "resetAllFilters": "Réinitialiser tous les filtres",
+      "details": "Détails",
+      "delete": "Supprimer",
+      "assignOperator": "Assigner un opérateur",
+      "view": "Voir",
+      "upload": "Téléverser",
+      "hide": "Masquer",
+      "update": "Mettre à jour",
+      "closeWithoutSaving": "Fermer sans enregistrer",
+      "keepEditing": "Continuer l'édition"
+    },
+    "filters": {
+      "itemsPerPageLabel": "Éléments par page",
+      "pageSizePlaceholder": "Taille de page",
+      "selectDateRangeLabel": "Sélectionner une plage de dates",
+      "pickDateRangePlaceholder": "Sélectionnez une plage de dates",
+      "selectStatusLabel": "Sélectionner le statut",
+      "selectStatusPlaceholder": "Choisissez un ou plusieurs statuts",
+      "overdueLabel": "En retard",
+      "overduePlaceholder": "Choisissez une ou plusieurs options",
+      "overdueOptions": {
+        "overDue": "En retard",
+        "dueTomorrow": "À rendre demain",
+        "dueToday": "À rendre aujourd'hui"
+      },
+      "searchPlaceholder": "Rechercher ici",
+      "selectPlaceholder": "Choisissez une valeur",
+      "pickDatePlaceholder": "Sélectionner une date"
+    },
+    "messages": {
+      "noIncidentsTitle": "Aucun incident trouvé",
+      "noIncidentsDescription": "Impossible de trouver des incidents. Essayez d'ajuster vos filtres ou d'actualiser la page.",
+      "notAssigned": "Non assigné",
+      "noDescriptionAvailable": "Aucune description disponible",
+      "noTitleAvailable": "Aucun titre disponible",
+      "noNoteAvailable": "Aucune note disponible",
+      "noIssueAvailable": "Aucun problème disponible",
+      "unknownOperator": "Opérateur inconnu",
+      "unknownManager": "Gestionnaire inconnu",
+      "unsavedChangesDescription": "Vous avez des modifications non enregistrées. Êtes-vous sûr de vouloir fermer sans enregistrer ? Vos modifications seront perdues.",
+      "noOperatorsAvailable": "Aucun opérateur disponible pour cette affectation"
+    },
+    "errors": {
+      "errorPrefix": "Erreur",
+      "fetchOperatorsFailed": "Échec de la récupération des opérateurs",
+      "fetchFollowupFailed": "Échec de la récupération des détails du suivi",
+      "updateFollowupFailed": "Échec de la mise à jour du suivi"
+    },
+    "modals": {
+      "updateStatusTitle": "Mettre à jour le statut",
+      "imagePreviewTitle": "Aperçu de l'image",
+      "unsavedChangesTitle": "Modifications non enregistrées"
+    },
+    "notifications": {
+      "updateSuccessTitle": "Succès",
+      "updateSuccessMessage": "Le suivi a été mis à jour avec succès"
+    },
+    "forms": {
+      "commentsLabel": "Commentaires",
+      "commentsPlaceholder": "Ajoutez des commentaires ou des notes supplémentaires ici"
+    }
+  },
+  "Analytics": {
+    "title": "Analytique",
+    "statistics": {
+      "title": "Statistiques",
+      "selectPeriodPlaceholder": "Sélectionner la période",
+      "lastUpdated": "Dernière mise à jour le",
+      "followUpsLabel": "Suivis"
+    },
+    "filters": {
+      "monthly": "Mensuel",
+      "weekly": "Hebdomadaire",
+      "yearly": "Annuel"
+    }
+  },
+  "LocationManagement": {
+    "title": "Gestion des emplacements",
+    "subtitle": "Gérer les codes QR et les afficher",
+    "labels": {
+      "id": "ID",
+      "item": "élément",
+      "items": "éléments",
+      "location": "Emplacement",
+      "locations": "Emplacements",
+      "locationHierarchy": "Hiérarchie des emplacements",
+      "selectAssignment": "Sélectionner une tâche",
+      "selectedCount": "{count} sélectionnés",
+      "locationTypesFor": "Types d'emplacement pour \"{name}\"",
+      "locationModal": "Modal d'emplacement",
+      "locationModals": "Modals d'emplacement",
+      "notAvailable": "Non disponible"
+    },
+    "actions": {
+      "selectChildren": "Sélectionner les éléments enfants",
+      "deselectChildren": "Désélectionner les éléments enfants",
+      "createLocation": "Créer un emplacement",
+      "createAssignment": "Créer une tâche",
+      "editQrTemplate": "Modifier le modèle de QR",
+      "selectAllLevel": "Sélectionner tous les {level}s",
+      "deselectAllLevel": "Désélectionner tous les {level}s",
+      "downloadInBulk": "Télécharger en masse",
+      "clearSelection": "Effacer la sélection",
+      "tryAgain": "Réessayer",
+      "delete": "Supprimer",
+      "edit": "Modifier"
+    },
+    "filters": {
+      "selectAssignmentPlaceholder": "Sélectionner une tâche"
+    },
+    "messages": {
+      "noLocationDataTitle": "Aucune donnée d'emplacement",
+      "noLocationDataDescription": "Aucun emplacement trouvé pour les types d'emplacement sélectionnés.",
+      "noLocationTypesTitle": "Aucun type d'emplacement disponible",
+      "noLocationTypesDescription": "Impossible de charger les types d'emplacement depuis les affectations."
+    },
+    "errors": {
+      "failedToLoadAssignments": "Échec du chargement des affectations",
+      "failedToProcessAssignment": "Échec du traitement des données d'affectation",
+      "failedToLoadLocationData": "Échec du chargement des données d'emplacement",
+      "loadingDataTitle": "Erreur de chargement des données"
+    },
+    "qrTemplate": {
+      "titles": {
+        "templateFor": "Modèle de code QR pour \"{name}\"",
+        "preview": "Aperçu du code QR"
+      },
+      "descriptions": {
+        "subtitle": "Générer et télécharger des codes QR pour OR Main",
+        "preview": "Vous pouvez voir les modifications ici"
+      },
+      "form": {
+        "locationTitleLabel": "Titre du code QR",
+        "locationTitlePlaceholder": "Entrez le nom de l'emplacement",
+        "locationTitlePositionLabel": "Position du titre du code QR",
+        "headerAlignmentLabel": "Alignement de l'en-tête",
+        "footerAlignmentLabel": "Alignement du pied de page",
+        "headerTitleLabel": "Titre de l'en-tête",
+        "footerTitleLabel": "Titre du pied de page",
+        "headerTitlePlaceholder": "Entrez le texte de l'en-tête",
+        "footerTitlePlaceholder": "Entrez le texte du pied de page",
+        "headerBodyLabel": "Contenu de l'en-tête",
+        "headerBodyPlaceholder": "Entrez la description de l'en-tête",
+        "footerBodyLabel": "Contenu du pied de page",
+        "footerBodyPlaceholder": "Entrez la description du pied de page",
+        "formatLabel": "Format",
+        "selectFormatPlaceholder": "Sélectionner le format",
+        "paperSizeLabel": "Taille du papier",
+        "selectPaperSizePlaceholder": "Sélectionner la taille du papier",
+        "rowsLabel": "Lignes",
+        "selectRowsPlaceholder": "Sélectionner le nombre de lignes",
+        "columnsLabel": "Colonnes",
+        "selectColumnsPlaceholder": "Sélectionner le nombre de colonnes"
+      },
+      "options": {
+        "alignment": {
+          "left": "Gauche",
+          "center": "Centre",
+          "right": "Droite"
+        },
+        "locationTitlePosition": {
+          "top": "Au-dessus du code QR",
+          "bottom": "Au-dessous du code QR"
+        },
+        "format": {
+          "pdf": "PDF",
+          "png": "PNG",
+          "jpg": "JPG"
+        },
+        "paperSize": {
+          "a4": "A4",
+          "letter": "Lettre",
+          "legal": "Légal",
+          "a3": "A3"
+        },
+        "rows": "{count, plural, one {# ligne} other {# lignes}}",
+        "columns": "{count, plural, one {# colonne} other {# colonnes}}"
+      },
+      "actions": {
+        "downloadTemplate": "Télécharger le modèle",
+        "saveTemplate": "Enregistrer le modèle",
+        "updateTemplate": "Mettre à jour le modèle"
+      },
+      "notifications": {
+        "success": {
+          "title": "Réussi",
+          "created": "Modèle de code QR créé avec succès",
+          "updated": "Modèle de code QR mis à jour avec succès"
+        },
+        "error": {
+          "title": "Erreur",
+          "createFailed": "Échec de la création du modèle de code QR",
+          "updateFailed": "Échec de la mise à jour du modèle de code QR",
+          "duplicate": "Le modèle de code QR existe déjà pour cette affectation"
+        },
+        "validation": {
+          "title": "Erreur de validation",
+          "requiredFields": "Veuillez remplir tous les champs requis"
+        }
+      },
+      "validation": {
+        "assignmentRequired": "L’affectation est requise",
+        "formatRequired": "Le format est requis",
+        "formatInvalid": "Format sélectionné non valide",
+        "paperSizeRequired": "La taille du papier est requise",
+        "paperSizeInvalid": "Taille du papier sélectionnée non valide",
+        "rowsRequired": "Le nombre de lignes est requis",
+        "columnsRequired": "Le nombre de colonnes est requis"
+      },
+      "alt": {
+        "qrCodeFor": "Code QR pour {name}",
+        "qrCode": "Code QR"
+      },
+      "defaults": {
+        "headerText": "Emplacement {level}",
+        "footerText": "Scannez pour accéder à l'emplacement"
+      }
+    }
+  },
+  "QRTemplateDeleteModal": {
+    "title": "Supprimer le modèle QR",
+    "labels": {
+      "qrTemplate": "Modèle QR"
+    },
+    "confirmationMessage": "Êtes-vous sûr de vouloir supprimer ce modèle QR ? Cette action ne peut pas être annulée.",
+    "actions": {
+      "cancel": "Annuler",
+      "delete": "Supprimer"
+    },
+    "notifications": {
+      "success": {
+        "title": "Succès",
+        "message": "Modèle QR supprimé avec succès"
+      },
+      "error": {
+        "title": "Erreur",
+        "message": "Échec de la suppression du modèle QR"
+      }
+    }
+  },
+  "IncidentCard": {
+    "labels": {
+      "dateCreated": "Date de création",
+      "dueDate": "Date d'échéance",
+      "status": "Statut"
+    },
+    "status": {
+      "resolved": "Résolu"
+    },
+    "actions": {
+      "details": "Détails"
+    }
+  },
+  "ScanHistory": {
+    "title": "Historique des scans",
+    "pastRecords": "Enregistrements passés",
+    "itemsPerPage": "Éléments par page",
+    "noHistoryAvailable": "Aucun historique disponible",
+    "noRecordsFound": "Aucun historique de scan trouvé",
+    "actions": {
+      "filters": "Filtres",
+      "view": "Voir",
+      "details": "Détails"
+    },
+    "filters": {
+      "title": "Options de filtre",
+      "labels": {
+        "status": "Statut",
+        "priority": "Priorité",
+        "dateRange": "Plage de dates",
+        "overdue": "En retard"
+      },
+      "placeholders": {
+        "selectStatuses": "Sélectionner les statuts",
+        "selectPriorities": "Sélectionner les priorités",
+        "pickDateRange": "Sélectionner la plage de dates",
+        "selectOverdue": "Sélectionner une ou plusieurs options"
+      },
+      "actions": {
+        "clearAll": "Tout effacer",
+        "clear": "Effacer",
+        "applyFilters": "Appliquer les filtres",
+        "resetAll": "Réinitialiser tous les filtres"
+      }
+    },
+    "table": {
+      "columns": {
+        "id": "ID",
+        "location": "Emplacement",
+        "scannedAt": "Scanné à",
+        "status": "Statut",
+        "priority": "Priorité",
+        "actions": "Actions",
+        "followUpId": "ID de suivi",
+        "inspectionId": "ID d'inspection",
+        "topic": "Sujet",
+        "assignedTo": "Assigné à",
+        "createdOn": "Créé le",
+        "details": "Détails"
+      }
+    }
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "publicTopNav": {
+    "help": "Help"
+  },
+  "LoginPage": {
+    "motto": "Your trusted repair service platform",
+    "welcome": "Welcome back",
+    "instruction": "Sign in to continue to FixitFast",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email address",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "signIn": "Sign In"
+  },
+  "HomePage": {
+    "title1": "Submit complaints and report issues",
+    "title2": "quickly with our",
+    "title3": "QR code",
+    "title4": "system",
+    "description": " Your fix is just a scan away. Use your camera to scan a room's QR code and report a problem in seconds. If you don't have a QR code, you can also manually select your room from the list below.",
+    "action": {
+      "scanQRCode": "Scan QR Code",
+      "initiateHistory": "Initiate history",
+      "createTicket": "Create ticket"
+    },
+    "signIn": {
+      "title": "You Want to Get in the Loop",
+      "description": "Sign in to access your account and get started with our incident management system.",
+      "button": "Sign In"
+    }
+  },
+  "howFifWork": {
+    "title1": "How",
+    "title2": "Fix it",
+    "title3": "Fast Works",
+    "description": "Learn how to use the QR code scanning system to report issues quickly and efficiently",
+    "steps": {
+      "findQRCode": "1. Find the QR Code",
+      "findQRCodeDescription": "Look for QR codes posted on walls, equipment, or room signs throughout the facility.",
+      "positionCamera": "2. Position Your Camera",
+      "positionCameraDescription": "Hold your device steady and point the camera at the QR code. Make sure it's well-lit and clearly visible.",
+      "scanCode": "3. Scan the Code",
+      "scanCodeDescription": "Tap the scan button or wait for automatic detection. The camera will capture the location information.",
+      "submitRequest": "4. Submit Your Request",
+      "submitRequestDescription": "Once scanned, you'll be taken to the request form with location details already filled in. Fill in any additional information and submit the request."
+    },
+    "scanningTipsData": {
+      "title": "Scanning Tips",
+      "description": "Follow these tips to ensure a smooth and successful scan.",
+      "tips": [
+        "Make sure the QR code is well-lit and clearly visible.",
+        "Hold your device steady and point the camera at the QR code.",
+        "Tap the scan button or wait for automatic detection.",
+        "Once scanned, you'll be taken to the request form with location details already filled in."
+      ]
+    },
+    "troubleshootingData": {
+      "title": "Troubleshooting",
+      "description": "If you encounter any issues while using the QR code scanning system, refer to the troubleshooting guide below for solutions.",
+      "tips": [
+        "Check that your device has a working camera and is not overheating.",
+        "Ensure that the QR code is within the camera's field of view and is not obstructed.",
+        "Verify that you have the latest version of the FixitFast app installed on your device.",
+        "Contact our support team for further assistance if the issue persists."
+      ]
+    },
+    "alternativeOptionCard": {
+      "title": "Alternative Option",
+      "description": "If you don't have a QR code, you can also manually select your room from the list below."
+    }
+  },
+  "IncidentForm": {
+    "incidentImage": {
+      "label": "Upload Images (Optional)",
+      "clickToSelect": "Click to select files",
+      "selectedImages": "Selected Images",
+      "view": "View",
+      "remove": "Remove"
+    }
+  },
+  "Dashboard": {
+    "title": "Dashboard",
+    "widgetTitles": {
+      "incidentStatusOverview": "Incident Status Overview",
+      "realTimeIncidentFeed": "Real Time Incident Feed",
+      "locationHeatmap": "Location Heatmap"
+    },
+    "actions": {
+      "seeMore": "See More",
+      "createFollowup": "Create Followup",
+      "createAssignment": "Create Assignment"
+    },
+    "filters": {
+      "monthly": "Monthly",
+      "weekly": "Weekly",
+      "yearly": "Yearly",
+      "pickDatesLabel": "Pick dates",
+      "pickDatesPlaceholder": "Pick date range",
+      "periodPlaceholder": "Pick value"
+    },
+    "status": {
+      "overdue": "Overdue",
+      "closed": "Closed",
+      "blocked": "Blocked",
+      "open": "Open",
+      "resolved": "Resolved"
+    },
+    "select": {
+      "assignmentPlaceholder": "Select an Assignment"
+    },
+    "errors": {
+      "errorPrefix": "Error"
+    },
+    "messages": {
+      "noLocations": "No locations available"
+    }
+  },
+  "IncidentManagement": {
+    "title": "Incident Management",
+    "labels": {
+      "total": "total",
+      "filterOptions": "Filter Options",
+      "dateCreated": "Date Created",
+      "dueDate": "Due Date",
+      "status": "Status",
+      "operator": "Operator",
+      "operators": "Operators",
+      "managers": "Managers",
+      "media": "Media",
+      "uploadImage": "Upload Image",
+      "time": "Time",
+      "activity": "Activity"
+    },
+    "actions": {
+      "updateStatus": "Update Status",
+      "filter": "Filter",
+      "clearFilters": "Clear Filters",
+      "clear": "Clear",
+      "applyFilters": "Apply Filters",
+      "resetAllFilters": "Reset All Filters",
+      "details": "Details",
+      "delete": "Delete",
+      "assignOperator": "Assign Operator",
+      "view": "View",
+      "upload": "Upload",
+      "hide": "Hide",
+      "update": "Update",
+      "closeWithoutSaving": "Close Without Saving",
+      "keepEditing": "Keep Editing"
+    },
+    "filters": {
+      "itemsPerPageLabel": "Items per page",
+      "pageSizePlaceholder": "Page size",
+      "selectDateRangeLabel": "Select a date range",
+      "pickDateRangePlaceholder": "Pick date range",
+      "selectStatusLabel": "Select Status",
+      "selectStatusPlaceholder": "Pick one or more statuses",
+      "overdueLabel": "Overdue",
+      "overduePlaceholder": "Pick one or more options",
+      "overdueOptions": {
+        "overDue": "Overdue",
+        "dueTomorrow": "Due Tomorrow",
+        "dueToday": "Due Today"
+      },
+      "searchPlaceholder": "Search here",
+      "selectPlaceholder": "Pick value",
+      "pickDatePlaceholder": "Pick date"
+    },
+    "messages": {
+      "noIncidentsTitle": "No incidents found",
+      "noIncidentsDescription": "Could not find any incident. Try adjusting your filters or refresh the page.",
+      "notAssigned": "Not Assigned",
+      "noDescriptionAvailable": "No description available",
+      "noTitleAvailable": "No title available",
+      "noNoteAvailable": "No note available",
+      "noIssueAvailable": "No issue available",
+      "unknownOperator": "Unknown Operator",
+      "unknownManager": "Unknown manager",
+      "unsavedChangesDescription": "You have unsaved changes. Are you sure you want to close without saving? Your changes will be lost.",
+      "noOperatorsAvailable": "No operators available for this assignment"
+    },
+    "errors": {
+      "errorPrefix": "Error",
+      "fetchOperatorsFailed": "Failed to fetch operators",
+      "fetchFollowupFailed": "Failed to fetch follow-up details",
+      "updateFollowupFailed": "Failed to update follow-up"
+    },
+    "modals": {
+      "updateStatusTitle": "Update Status",
+      "imagePreviewTitle": "Image Preview",
+      "unsavedChangesTitle": "Unsaved Changes"
+    },
+    "notifications": {
+      "updateSuccessTitle": "Successful",
+      "updateSuccessMessage": "Follow-up updated successfully!"
+    },
+    "forms": {
+      "commentsLabel": "Comments",
+      "commentsPlaceholder": "Add any additional comments or notes here"
+    }
+  },
+  "Analytics": {
+    "title": "Analytics",
+    "statistics": {
+      "title": "Statistics",
+      "selectPeriodPlaceholder": "Select Period",
+      "lastUpdated": "Last updated on",
+      "followUpsLabel": "Follow-ups"
+    },
+    "filters": {
+      "monthly": "Monthly",
+      "weekly": "Weekly",
+      "yearly": "Yearly"
+    }
+  },
+  "LocationManagement": {
+    "title": "Location Management",
+    "subtitle": "Manage QR code and view them",
+    "labels": {
+      "id": "ID",
+      "item": "item",
+      "items": "items",
+      "location": "Location",
+      "locations": "Locations",
+      "locationHierarchy": "Location hierarchy",
+      "selectAssignment": "Select assignment",
+      "selectedCount": "{count} selected",
+      "locationTypesFor": "Location types for \"{name}\"",
+      "locationModal": "Location modal",
+      "locationModals": "Location modals",
+      "notAvailable": "N/A"
+    },
+    "actions": {
+      "selectChildren": "Select children items",
+      "deselectChildren": "Deselect children items",
+      "createLocation": "Create Location",
+      "createAssignment": "Create Assignment",
+      "editQrTemplate": "Edit QR Template",
+      "selectAllLevel": "Select All {level}s",
+      "deselectAllLevel": "Deselect All {level}s",
+      "downloadInBulk": "Download In Bulk",
+      "clearSelection": "Clear Selection",
+      "tryAgain": "Try Again",
+      "delete": "Delete",
+      "edit": "Edit"
+    },
+    "filters": {
+      "selectAssignmentPlaceholder": "Select an assignment"
+    },
+    "messages": {
+      "noLocationDataTitle": "No Location Data",
+      "noLocationDataDescription": "No locations found for the selected location types.",
+      "noLocationTypesTitle": "No Location Types Available",
+      "noLocationTypesDescription": "Unable to load location types from assignments."
+    },
+    "errors": {
+      "failedToLoadAssignments": "Failed to load assignments",
+      "failedToProcessAssignment": "Failed to process assignment data",
+      "failedToLoadLocationData": "Failed to load location data",
+      "loadingDataTitle": "Error Loading Data"
+    },
+    "qrTemplate": {
+      "titles": {
+        "templateFor": "QR Code Template for \"{name}\"",
+        "preview": "QR Code Preview"
+      },
+      "descriptions": {
+        "subtitle": "Generate and download QR codes for OR Main",
+        "preview": "You can see the changes here"
+      },
+      "form": {
+        "locationTitleLabel": "QR Code Title",
+        "locationTitlePlaceholder": "Enter location name",
+        "locationTitlePositionLabel": "QR Code Title Position",
+        "headerAlignmentLabel": "Header Alignment",
+        "footerAlignmentLabel": "Footer Alignment",
+        "headerTitleLabel": "Header Title",
+        "footerTitleLabel": "Footer Title",
+        "headerTitlePlaceholder": "Enter header text",
+        "footerTitlePlaceholder": "Enter footer text",
+        "headerBodyLabel": "Header Body",
+        "headerBodyPlaceholder": "Enter header description",
+        "footerBodyLabel": "Footer Body",
+        "footerBodyPlaceholder": "Enter footer description",
+        "formatLabel": "Format",
+        "selectFormatPlaceholder": "Select format",
+        "paperSizeLabel": "Paper Size",
+        "selectPaperSizePlaceholder": "Select paper size",
+        "rowsLabel": "Rows",
+        "selectRowsPlaceholder": "Select number of rows",
+        "columnsLabel": "Columns",
+        "selectColumnsPlaceholder": "Select number of columns"
+      },
+      "options": {
+        "alignment": {
+          "left": "Left",
+          "center": "Center",
+          "right": "Right"
+        },
+        "locationTitlePosition": {
+          "top": "Above QR Code",
+          "bottom": "Below QR Code"
+        },
+        "format": {
+          "pdf": "PDF",
+          "png": "PNG",
+          "jpg": "JPG"
+        },
+        "paperSize": {
+          "a4": "A4",
+          "letter": "Letter",
+          "legal": "Legal",
+          "a3": "A3"
+        },
+        "rows": "{count, plural, one {# row} other {# rows}}",
+        "columns": "{count, plural, one {# column} other {# columns}}"
+      },
+      "actions": {
+        "downloadTemplate": "Download Template",
+        "saveTemplate": "Save Template",
+        "updateTemplate": "Update Template"
+      },
+      "notifications": {
+        "success": {
+          "title": "Successful",
+          "created": "QR Code Template Created Successfully",
+          "updated": "QR Code Template Updated Successfully"
+        },
+        "error": {
+          "title": "Error",
+          "createFailed": "Failed to create QR Code Template",
+          "updateFailed": "Failed to update QR Code Template",
+          "duplicate": "QR Code Template already exists for this Assignment"
+        },
+        "validation": {
+          "title": "Validation Error",
+          "requiredFields": "Please fill in all required fields"
+        }
+      },
+      "validation": {
+        "assignmentRequired": "Assignment is required",
+        "formatRequired": "Format is required",
+        "formatInvalid": "Invalid format selected",
+        "paperSizeRequired": "Paper size is required",
+        "paperSizeInvalid": "Invalid paper size selected",
+        "rowsRequired": "Number of rows is required",
+        "columnsRequired": "Number of columns is required"
+      },
+      "alt": {
+        "qrCodeFor": "QR code for {name}",
+        "qrCode": "QR Code"
+      },
+      "defaults": {
+        "headerText": "{level} Location",
+        "footerText": "Scan to access location"
+      }
+    }
+  },
+  "QRTemplateDeleteModal": {
+    "title": "Delete QR Template",
+    "labels": {
+      "qrTemplate": "QR Template"
+    },
+    "confirmationMessage": "Are you sure you want to delete this QR template? This action cannot be undone.",
+    "actions": {
+      "cancel": "Cancel",
+      "delete": "Delete"
+    },
+    "notifications": {
+      "success": {
+        "title": "Success",
+        "message": "QR template deleted successfully"
+      },
+      "error": {
+        "title": "Error",
+        "message": "Failed to delete QR template"
+      }
+    }
+  },
+  "IncidentCard": {
+    "labels": {
+      "dateCreated": "Date Created",
+      "dueDate": "Due Date",
+      "status": "Status"
+    },
+    "status": {
+      "resolved": "Resolved"
+    },
+    "actions": {
+      "details": "Details"
+    }
+  },
+  "ScanHistory": {
+    "title": "Scan History",
+    "pastRecords": "Past Records",
+    "itemsPerPage": "Items per page",
+    "noHistoryAvailable": "No history available",
+    "noRecordsFound": "No scan history found",
+    "actions": {
+      "filters": "Filters",
+      "view": "View",
+      "details": "Details"
+    },
+    "filters": {
+      "title": "Filter Options",
+      "labels": {
+        "status": "Status",
+        "priority": "Priority",
+        "dateRange": "Date Range",
+        "overdue": "Overdue"
+      },
+      "placeholders": {
+        "selectStatuses": "Select statuses",
+        "selectPriorities": "Select priorities",
+        "pickDateRange": "Pick date range",
+        "selectOverdue": "Pick one or more options"
+      },
+      "actions": {
+        "clearAll": "Clear All",
+        "clear": "Clear",
+        "applyFilters": "Apply Filters",
+        "resetAll": "Reset All Filters"
+      }
+    },
+    "table": {
+      "columns": {
+        "id": "ID",
+        "location": "Location",
+        "scannedAt": "Scanned At",
+        "status": "Status",
+        "priority": "Priority",
+        "actions": "Actions",
+        "followUpId": "Follow-up ID",
+        "inspectionId": "Inspection ID",
+        "topic": "Topic",
+        "assignedTo": "Assigned To",
+        "createdOn": "Created On",
+        "details": "Details"
+      }
+    }
+  }
+}

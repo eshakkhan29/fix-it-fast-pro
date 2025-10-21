@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+
+echo "Running pre-push checks..."
+
+# Ensure the code type-checks
+yarn type-check || exit 1
+
+# Build to catch any production build errors
+yarn build || exit 1
+
+
+# show passed message with green check Icon
+echo "✅ Pre-push checks passed."

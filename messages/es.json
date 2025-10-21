@@ -1,0 +1,442 @@
+{
+  "publicTopNav": {
+    "help": "Ayuda"
+  },
+  "LoginPage": {
+    "motto": "Plataforma de servicio de reparación confiable",
+    "welcome": "Bienvenido de nuevo",
+    "instruction": "Inicia sesión para continuar con FixitFast",
+    "emailLabel": "Dirección de correo electrónico",
+    "emailPlaceholder": "Ingresa tu dirección de correo electrónico",
+    "passwordLabel": "Contraseña",
+    "passwordPlaceholder": "Ingresa tu contraseña",
+    "signIn": "Iniciar sesión"
+  },
+  "HomePage": {
+    "title1": "Reporta incidentes y problemas de manera rápida y sencilla",
+    "title2": "utilizando nuestro",
+    "title3": "código QR",
+    "title4": "sistema",
+    "description": "Reporta incidentes y problemas de manera rápida y sencilla utilizando nuestro código QR. Si no tienes un código QR, puedes seleccionar tu sala manualmente desde la lista debajo.",
+    "action": {
+      "scanQRCode": "Escanear código QR",
+      "initiateHistory": "Iniciar historial",
+      "createTicket": "Crear ticket"
+    },
+    "signIn": {
+      "title": "¿Quieres obtener información sobre los incidentes?",
+      "description": "Inicia sesión para acceder a tu cuenta y comenzar a utilizar nuestro sistema de gestión de incidentes.",
+      "button": "Iniciar sesión"
+    }
+  },
+  "howFifWork": {
+    "title1": "¿Cómo funciona?",
+    "title2": "Reportar incidentes y problemas",
+    "title3": "Utilizando nuestro sistema de gestión de incidentes",
+    "description": "Reporta incidentes y problemas de manera rápida y sencilla utilizando nuestro sistema de gestión de incidentes. Si no tienes un código QR, puedes seleccionar tu sala manualmente desde la lista debajo.",
+    "steps": {
+      "findQRCode": "1. Encuentra el Código QR",
+      "findQRCodeDescription": "Busca códigos QR publicados en paredes, equipos o señales de sala en toda la instalación.",
+      "positionCamera": "2. Posiciona tu Cámara",
+      "positionCameraDescription": "Mantén tu dispositivo estático y apunta la cámara al código QR. Asegúrate de que esté iluminado y sea clara.",
+      "scanCode": "3. Escanea el Código",
+      "scanCodeDescription": "Toca el botón de escanear o espera a la detección automática. La cámara capturará la información de la ubicación.",
+      "submitRequest": "4. Envía tu Solicitud",
+      "submitRequestDescription": "Una vez escaneado, serás dirigido al formulario de solicitud con los detalles de ubicación previamente rellenados. Completa cualquier información adicional y envía la solicitud."
+    },
+    "scanningTipsData": {
+      "title": "Tips de Escaneo",
+      "description": "Sigue estos tips para garantizar un escaneo fluido y exitoso.",
+      "tips": [
+        "Asegúrate de que el código QR esté bien iluminado y sea clara.",
+        "Mantén tu dispositivo estático y apunta la cámara al código QR.",
+        "Toca el botón de escanear o espera a la detección automática.",
+        "Una vez escaneado, serás dirigido al formulario de solicitud con los detalles de ubicación previamente rellenados. Completa cualquier información adicional y envía la solicitud."
+      ]
+    },
+    "troubleshootingData": {
+      "title": "Solución de Problemas",
+      "description": "Si encuentras algún problema al usar el sistema de escaneo de códigos QR, consulta el guía de solución de problemas a continuación para obtener soluciones.",
+      "tips": [
+        "Asegúrate de que tu dispositivo tenga una cámara funcionando y no esté sobrecalentado.",
+        "Asegúrate de que el código QR esté dentro del campo de visión de la cámara y no esté obstaculizado.",
+        "Verifica que tienes la última versión de la aplicación FixitFast instalada en tu dispositivo.",
+        "Contacta nuestro equipo de soporte técnico si el problema persiste."
+      ]
+    },
+    "alternativeOptionCard": {
+      "title": "Opción Alternativa",
+      "description": "Si no tienes un código QR, puedes también seleccionar tu sala manualmente desde la lista debajo."
+    }
+  },
+  "IncidentForm": {
+    "incidentImage": {
+      "label": "Subir imágenes (Opcional)",
+      "clickToSelect": "Haz clic para seleccionar archivos",
+      "selectedImages": "Imágenes seleccionadas",
+      "view": "Ver",
+      "remove": "Eliminar"
+    }
+  },
+  "Dashboard": {
+    "title": "Panel de Control",
+    "widgetTitles": {
+      "incidentStatusOverview": "Resumen del Estado de Incidentes",
+      "realTimeIncidentFeed": "Lista de Incidentes en Tiempo Real",
+      "locationHeatmap": "Mapa de Calor de Ubicaciones"
+    },
+    "actions": {
+      "seeMore": "Ver más",
+      "createFollowup": "Crear seguimiento",
+      "createAssignment": "Crear asignación"
+    },
+    "filters": {
+      "monthly": "Mensual",
+      "weekly": "Semanal",
+      "yearly": "Anual",
+      "pickDatesLabel": "Selecciona fechas",
+      "pickDatesPlaceholder": "Selecciona un rango de fechas",
+      "periodPlaceholder": "Selecciona un periodo"
+    },
+    "status": {
+      "overdue": "Atrasado",
+      "closed": "Cerrado",
+      "blocked": "Bloqueado",
+      "open": "Abierto",
+      "resolved": "Resuelto"
+    },
+    "select": {
+      "assignmentPlaceholder": "Selecciona una asignación"
+    },
+    "errors": {
+      "errorPrefix": "Error"
+    },
+    "messages": {
+      "noLocations": "No hay ubicaciones disponibles"
+    }
+  },
+  "IncidentManagement": {
+    "title": "Gestión de Incidentes",
+    "labels": {
+      "total": "total",
+      "filterOptions": "Opciones de filtro",
+      "dateCreated": "Fecha de creación",
+      "dueDate": "Fecha de vencimiento",
+      "status": "Estado",
+      "operator": "Operador",
+      "operators": "Operadores",
+      "managers": "Gerentes",
+      "media": "Multimedia",
+      "uploadImage": "Subir imagen",
+      "time": "Hora",
+      "activity": "Actividad"
+    },
+    "actions": {
+      "updateStatus": "Actualizar estado",
+      "filter": "Filtrar",
+      "clearFilters": "Limpiar filtros",
+      "clear": "Limpiar",
+      "applyFilters": "Aplicar filtros",
+      "resetAllFilters": "Restablecer todos los filtros",
+      "details": "Detalles",
+      "delete": "Eliminar",
+      "assignOperator": "Asignar operador",
+      "view": "Ver",
+      "upload": "Subir",
+      "hide": "Ocultar",
+      "update": "Actualizar",
+      "closeWithoutSaving": "Cerrar sin guardar",
+      "keepEditing": "Seguir editando"
+    },
+    "filters": {
+      "itemsPerPageLabel": "Elementos por página",
+      "pageSizePlaceholder": "Tamaño de página",
+      "selectDateRangeLabel": "Selecciona un rango de fechas",
+      "pickDateRangePlaceholder": "Selecciona un rango de fechas",
+      "selectStatusLabel": "Seleccionar estado",
+      "selectStatusPlaceholder": "Elige uno o más estados",
+      "overdueLabel": "Atrasado",
+      "overduePlaceholder": "Elige una o más opciones",
+      "overdueOptions": {
+        "overDue": "Atrasado",
+        "dueTomorrow": "Vence mañana",
+        "dueToday": "Vence hoy"
+      },
+      "searchPlaceholder": "Buscar aquí",
+      "selectPlaceholder": "Elige un valor",
+      "pickDatePlaceholder": "Selecciona fecha"
+    },
+    "messages": {
+      "noIncidentsTitle": "No se encontraron incidentes",
+      "noIncidentsDescription": "No se pudo encontrar ningún incidente. Intenta ajustar tus filtros o actualizar la página.",
+      "notAssigned": "No asignado",
+      "noDescriptionAvailable": "No hay descripción disponible",
+      "noTitleAvailable": "No hay título disponible",
+      "noNoteAvailable": "No hay nota disponible",
+      "noIssueAvailable": "No hay incidencia disponible",
+      "unknownOperator": "Operador desconocido",
+      "unknownManager": "Gerente desconocido",
+      "unsavedChangesDescription": "Tienes cambios sin guardar. ¿Seguro que quieres cerrar sin guardar? Tus cambios se perderán.",
+      "noOperatorsAvailable": "No hay operadores disponibles para esta asignación"
+    },
+    "errors": {
+      "errorPrefix": "Error",
+      "fetchOperatorsFailed": "No se pudieron obtener los operadores",
+      "fetchFollowupFailed": "No se pudieron obtener los detalles del seguimiento",
+      "updateFollowupFailed": "No se pudo actualizar el seguimiento"
+    },
+    "modals": {
+      "updateStatusTitle": "Actualizar estado",
+      "imagePreviewTitle": "Vista previa de la imagen",
+      "unsavedChangesTitle": "Cambios no guardados"
+    },
+    "notifications": {
+      "updateSuccessTitle": "Éxito",
+      "updateSuccessMessage": "El seguimiento se actualizó correctamente"
+    },
+    "forms": {
+      "commentsLabel": "Comentarios",
+      "commentsPlaceholder": "Añade comentarios o notas adicionales aquí"
+    }
+  },
+  "Analytics": {
+    "title": "Analíticas",
+    "statistics": {
+      "title": "Estadísticas",
+      "selectPeriodPlaceholder": "Seleccionar período",
+      "lastUpdated": "Última actualización el",
+      "followUpsLabel": "Seguimientos"
+    },
+    "filters": {
+      "monthly": "Mensual",
+      "weekly": "Semanal",
+      "yearly": "Anual"
+    }
+  },
+  "LocationManagement": {
+    "title": "Gestión de Ubicaciones",
+    "subtitle": "Administrar códigos QR y verlos",
+    "labels": {
+      "id": "ID",
+      "item": "elemento",
+      "items": "elementos",
+      "location": "Ubicación",
+      "locations": "Ubicaciones",
+      "locationHierarchy": "Jerarquía de ubicaciones",
+      "selectAssignment": "Seleccionar asignación",
+      "selectedCount": "{count} seleccionados",
+      "locationTypesFor": "Tipos de ubicación para \"{name}\"",
+      "locationModal": "Modal de ubicación",
+      "locationModals": "Modales de ubicación",
+      "notAvailable": "No disponible"
+    },
+    "actions": {
+      "selectChildren": "Seleccionar elementos hijos",
+      "deselectChildren": "Deseleccionar elementos hijos",
+      "createLocation": "Crear Ubicación",
+      "createAssignment": "Crear Tarea",
+      "editQrTemplate": "Editar plantilla de QR",
+      "selectAllLevel": "Seleccionar todos los {level}s",
+      "deselectAllLevel": "Deseleccionar todos los {level}s",
+      "downloadInBulk": "Descargar en masa",
+      "clearSelection": "Limpiar selección",
+      "tryAgain": "Intentar de nuevo",
+      "delete": "Eliminar",
+      "edit": "Editar"
+    },
+    "filters": {
+      "selectAssignmentPlaceholder": "Selecciona una asignación"
+    },
+    "messages": {
+      "noLocationDataTitle": "Sin datos de ubicación",
+      "noLocationDataDescription": "No se encontraron ubicaciones para los tipos seleccionados.",
+      "noLocationTypesTitle": "No hay tipos de ubicación disponibles",
+      "noLocationTypesDescription": "No se pueden cargar los tipos de ubicación desde las asignaciones."
+    },
+    "errors": {
+      "failedToLoadAssignments": "Error al cargar asignaciones",
+      "failedToProcessAssignment": "Error al procesar los datos de asignación",
+      "failedToLoadLocationData": "Error al cargar datos de ubicación",
+      "loadingDataTitle": "Error al cargar datos"
+    },
+    "qrTemplate": {
+      "titles": {
+        "templateFor": "Plantilla de código QR para \"{name}\"",
+        "preview": "Vista previa del código QR"
+      },
+      "descriptions": {
+        "subtitle": "Genera y descarga códigos QR para OR Main",
+        "preview": "Puedes ver los cambios aquí"
+      },
+      "form": {
+        "locationTitleLabel": "Título del código QR",
+        "locationTitlePlaceholder": "Ingresa el nombre de la ubicación",
+        "locationTitlePositionLabel": "Posición del título del código QR",
+        "headerAlignmentLabel": "Alineación del encabezado",
+        "footerAlignmentLabel": "Alineación del pie de página",
+        "headerTitleLabel": "Título del encabezado",
+        "footerTitleLabel": "Título del pie de página",
+        "headerTitlePlaceholder": "Ingresa el texto del encabezado",
+        "footerTitlePlaceholder": "Ingresa el texto del pie de página",
+        "headerBodyLabel": "Cuerpo del encabezado",
+        "headerBodyPlaceholder": "Ingresa la descripción del encabezado",
+        "footerBodyLabel": "Cuerpo del pie de página",
+        "footerBodyPlaceholder": "Ingresa la descripción del pie de página",
+        "formatLabel": "Formato",
+        "selectFormatPlaceholder": "Seleccionar formato",
+        "paperSizeLabel": "Tamaño de papel",
+        "selectPaperSizePlaceholder": "Seleccionar tamaño de papel",
+        "rowsLabel": "Filas",
+        "selectRowsPlaceholder": "Seleccionar número de filas",
+        "columnsLabel": "Columnas",
+        "selectColumnsPlaceholder": "Seleccionar número de columnas"
+      },
+      "options": {
+        "alignment": {
+          "left": "Izquierda",
+          "center": "Centro",
+          "right": "Derecha"
+        },
+        "locationTitlePosition": {
+          "top": "Encima del código QR",
+          "bottom": "Debajo del código QR"
+        },
+        "format": {
+          "pdf": "PDF",
+          "png": "PNG",
+          "jpg": "JPG"
+        },
+        "paperSize": {
+          "a4": "A4",
+          "letter": "Carta",
+          "legal": "Legal",
+          "a3": "A3"
+        },
+        "rows": "{count, plural, one {# fila} other {# filas}}",
+        "columns": "{count, plural, one {# columna} other {# columnas}}"
+      },
+      "actions": {
+        "downloadTemplate": "Descargar plantilla",
+        "saveTemplate": "Guardar plantilla",
+        "updateTemplate": "Actualizar plantilla"
+      },
+      "notifications": {
+        "success": {
+          "title": "Exitoso",
+          "created": "Plantilla de código QR creada correctamente",
+          "updated": "Plantilla de código QR actualizada correctamente"
+        },
+        "error": {
+          "title": "Error",
+          "createFailed": "Error al crear la plantilla de código QR",
+          "updateFailed": "Error al actualizar la plantilla de código QR",
+          "duplicate": "La plantilla de código QR ya existe para esta asignación"
+        },
+        "validation": {
+          "title": "Error de validación",
+          "requiredFields": "Completa todos los campos requeridos"
+        }
+      },
+      "validation": {
+        "assignmentRequired": "La asignación es obligatoria",
+        "formatRequired": "El formato es obligatorio",
+        "formatInvalid": "Formato seleccionado no válido",
+        "paperSizeRequired": "El tamaño de papel es obligatorio",
+        "paperSizeInvalid": "Tamaño de papel seleccionado no válido",
+        "rowsRequired": "El número de filas es obligatorio",
+        "columnsRequired": "El número de columnas es obligatorio"
+      },
+      "alt": {
+        "qrCodeFor": "Código QR para {name}",
+        "qrCode": "Código QR"
+      },
+      "defaults": {
+        "headerText": "Ubicación {level}",
+        "footerText": "Escanea para acceder a la ubicación"
+      }
+    }
+  },
+  "QRTemplateDeleteModal": {
+    "title": "Eliminar plantilla QR",
+    "labels": {
+      "qrTemplate": "Plantilla QR"
+    },
+    "confirmationMessage": "¿Estás seguro de que quieres eliminar esta plantilla QR? Esta acción no se puede deshacer.",
+    "actions": {
+      "cancel": "Cancelar",
+      "delete": "Eliminar"
+    },
+    "notifications": {
+      "success": {
+        "title": "Éxito",
+        "message": "Plantilla QR eliminada correctamente"
+      },
+      "error": {
+        "title": "Error",
+        "message": "Error al eliminar la plantilla QR"
+      }
+    }
+  },
+  "IncidentCard": {
+    "labels": {
+      "dateCreated": "Fecha de creación",
+      "dueDate": "Fecha de vencimiento",
+      "status": "Estado"
+    },
+    "status": {
+      "resolved": "Resuelto"
+    },
+    "actions": {
+      "details": "Detalles"
+    }
+  },
+  "ScanHistory": {
+    "title": "Historial de escaneos",
+    "pastRecords": "Registros anteriores",
+    "itemsPerPage": "Elementos por página",
+    "noHistoryAvailable": "No hay historial disponible",
+    "noRecordsFound": "No se encontró historial de escaneos",
+    "actions": {
+      "filters": "Filtros",
+      "view": "Ver",
+      "details": "Detalles"
+    },
+    "filters": {
+      "title": "Opciones de filtro",
+      "labels": {
+        "status": "Estado",
+        "priority": "Prioridad",
+        "dateRange": "Rango de fechas",
+        "overdue": "Vencido"
+      },
+      "placeholders": {
+        "selectStatuses": "Seleccionar estados",
+        "selectPriorities": "Seleccionar prioridades",
+        "pickDateRange": "Seleccionar rango de fechas",
+        "selectOverdue": "Seleccionar una o más opciones"
+      },
+      "actions": {
+        "clearAll": "Limpiar todo",
+        "clear": "Limpiar",
+        "applyFilters": "Aplicar filtros",
+        "resetAll": "Restablecer todos los filtros"
+      }
+    },
+    "table": {
+      "columns": {
+        "id": "ID",
+        "location": "Ubicación",
+        "scannedAt": "Escaneado en",
+        "status": "Estado",
+        "priority": "Prioridad",
+        "actions": "Acciones",
+        "followUpId": "ID de seguimiento",
+        "inspectionId": "ID de inspección",
+        "topic": "Tema",
+        "assignedTo": "Asignado a",
+        "createdOn": "Creado en",
+        "details": "Detalles"
+      }
+    }
+  }
+}
