@@ -45,12 +45,12 @@ export function LoginForm() {
       const result = await signIn('credentials', {
         email: data.email,
         password: data.password,
-        redirect: true,
+        redirect: false,
         callbackUrl: callbackUrl,
       });
 
       if (result?.ok) {
-        router.push(callbackUrl);
+        router.push("/role-select");
       }
 
       if (result?.error) {
@@ -71,7 +71,7 @@ export function LoginForm() {
       radius="lg"
       className="w-full"
       style={{ maxWidth: 420, margin: '0 auto' }}
-     
+
     >
       <Stack gap="xl">
         <div style={{ textAlign: 'center' }}>
@@ -95,7 +95,7 @@ export function LoginForm() {
             </Text>
           </div>
           <Title order={2} c="neutral.9" mb="xs" fw={600}>
-           {t('welcome')}
+            {t('welcome')}
           </Title>
           <Text c="neutral.6" size="md">
             {t('instruction')}

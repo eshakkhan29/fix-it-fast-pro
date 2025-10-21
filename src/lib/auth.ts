@@ -47,6 +47,9 @@ export async function fetchWithAuth(
   const { accessToken } = session;
 
   const authInit: RequestInit = {
+    // Disable Next.js fetch caching
+    cache: 'no-store',
+    next: { revalidate: 0 },
     ...init,
     headers: {
       ...(init.headers || {}),
@@ -59,17 +62,14 @@ export async function fetchWithAuth(
 
   // If token is expired (401), try to refresh it
   if (res.status === 401) {
-    // Re-fetch the session which triggers token refresh via `jwt` callback
-    session = await getServerSession(authOptions as any); // getSession will trigger jwt callback which refreshes token if needed
+    session = await getServerSession(authOptions as any);
 
     if (!session || !session.accessToken) {
       redirect('/login');
-      // throw new Error("Token refresh failed");
     }
 
     const newAccessToken = session.accessToken;
 
-    // Retry the original request with new token
     authInit.headers = {
       ...(init.headers || {}),
       Authorization: `Bearer ${newAccessToken}`,

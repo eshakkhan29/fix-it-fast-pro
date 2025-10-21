@@ -8,10 +8,7 @@ export default function ServiceWorkerRegistration() {
       const registerSW = () => {
         navigator.serviceWorker
           .register('/sw.js')
-          .then(() => {
-          })
-          .catch(() => {
-          });
+          .catch(() => { });
       };
 
       if (document.readyState === 'loading') {
@@ -19,10 +16,9 @@ export default function ServiceWorkerRegistration() {
         return () => window.removeEventListener('load', registerSW);
       } else {
         registerSW();
-        return undefined;
       }
     }
-    return undefined;
+    return () => { };
   }, []);
 
   return null;
